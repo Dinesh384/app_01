@@ -20,6 +20,8 @@ public class Contact {
 	@Column(name="CONTACT_ID") 
 	private Integer contactId;
   int a = 10;
+  int b = 500;
+  a+b = int c;
 	 
 	@Column(name="CONTACT_NAME")
 	private String contactName;
