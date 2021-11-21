@@ -19,6 +19,7 @@ public class Contact {
 	@GeneratedValue
 	@Column(name="CONTACT_ID") 
 	private Integer contactId;
+System.out.println("hiii");
 	 
 	@Column(name="CONTACT_NAME")
 	private String contactName;
